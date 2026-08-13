@@ -799,6 +799,7 @@ h3 {
     margin-right: -24px;
     padding-right: 24px;
     overflow-x: auto;
+    overscroll-behavior-inline: contain;
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
   }
@@ -808,8 +809,10 @@ h3 {
   }
 
   .product-grid figure {
-    min-width: min(78vw, 320px);
+    flex: 0 0 100%;
+    min-width: 0;
     scroll-snap-align: start;
+    scroll-snap-stop: always;
   }
 
   .advantages-grid {
