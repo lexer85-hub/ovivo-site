@@ -446,8 +446,9 @@ h3 {
 
 .partner-grid a {
   display: grid;
-  grid-template-columns: minmax(100px, 150px) 1fr;
+  grid-template-columns: auto minmax(100px, 150px);
   align-items: center;
+  justify-content: space-between;
   gap: 24px;
   padding: 30px;
   border-radius: var(--radius);
@@ -467,6 +468,7 @@ h3 {
 
 .partner-grid span {
   font-size: 20px;
+  white-space: nowrap;
 }
 
 .site-footer {
@@ -824,7 +826,7 @@ h3 {
   }
 
   .partner-grid a {
-    grid-template-columns: 110px 1fr;
+    grid-template-columns: auto minmax(100px, 150px);
     gap: 20px;
     padding: 22px;
   }
