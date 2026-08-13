@@ -168,7 +168,7 @@ h3 {
       rgb(0 0 0 / 36%) 65%,
       rgb(0 0 0 / 12%) 100%
     ),
-    url("assets/images/___-_____16_9_7.webp") center / cover no-repeat;
+    url("./assets/images/hero-background.webp") center / cover no-repeat;
 }
 
 .hero__content {
@@ -475,7 +475,7 @@ h3 {
   color: white;
   background:
     linear-gradient(rgb(17 21 17 / 92%), rgb(17 21 17 / 96%)),
-    url("assets/images/6310fec367911f097f05.jpeg") center / cover;
+    url("./assets/images/footer-background.jpg") center / cover;
 }
 
 .footer-heading {
