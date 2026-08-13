@@ -848,7 +848,7 @@ h3 {
   }
 
   .footer-grid section {
-    gap: 5px;
+    gap: 8px;
   }
 
   .footer-grid h3 {
@@ -859,9 +859,16 @@ h3 {
   .footer-grid a,
   .footer-grid address {
     font-size: 14px;
+    line-height: 1.45;
   }
 
-  .footer-grid a,
+  .footer-grid a {
+    display: inline-flex;
+    min-height: auto;
+    align-items: center;
+    padding: 0;
+  }
+
   .footer-bottom a {
     display: inline-flex;
     min-height: 44px;
