@@ -19,6 +19,13 @@ document.addEventListener("DOMContentLoaded", () => {
     link.addEventListener("click", () => setMenu(false));
   });
 
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && toggle.getAttribute("aria-expanded") === "true") {
+      setMenu(false);
+      toggle.focus();
+    }
+  });
+
   window.addEventListener("resize", () => {
     if (window.innerWidth > 860) setMenu(false);
   });
