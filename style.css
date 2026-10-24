@@ -944,9 +944,6 @@ button:focus-visible {
 .product-grid--loft figcaption { display: flex; flex-direction: column; flex: 1; }
 .product-grid--loft .product-links { margin-top: auto; padding-top: 10px; }
 .product-grid--loft .product-source:only-child { color: #456922; }
-@media (min-width: 1051px) {
-  .product-grid--loft > figure:last-child:nth-child(3n + 1) { grid-column: 2; }
-}
 @media (max-width: 640px) {
   .product-grid--loft { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 0; padding: 0; overflow: visible; }
   .product-grid--loft figcaption { padding: 12px; font-size: 14px; }
