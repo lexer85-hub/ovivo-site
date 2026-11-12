@@ -29,8 +29,9 @@
       type="image/webp"
       fetchpriority="high"
     />
-    <link rel="stylesheet" href="./style.css?v=12" />
+    <link rel="stylesheet" href="./style.css?v=13" />
     <script src="script.js?v=2" defer></script>
+    <script src="analytics.js?v=20261113" defer></script>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -528,8 +529,14 @@
           height="1080"
           alt="OVIVO Electric"
         />
+        <a href="privacy.html">Конфиденциальность</a>
+        <button class="analytics-settings" type="button" hidden>Настройки аналитики</button>
         <a href="#top">Наверх ↑</a>
       </div>
     </footer>
+<section class="analytics-banner" id="analytics-banner" role="region" aria-labelledby="analytics-title" data-nosnippet hidden>
+  <div><h2 id="analytics-title">Разрешить статистику посещений?</h2><p>Яндекс Метрика использует cookie и загружается только с вашего согласия. Выбор действует 180 дней. <a href="privacy.html">Подробнее</a></p></div>
+  <div class="analytics-actions"><button id="analytics-accept" type="button">Разрешить</button><button id="analytics-reject" type="button">Без аналитики</button></div>
+</section>
   </body>
 </html>
